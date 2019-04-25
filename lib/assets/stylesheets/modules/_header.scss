@@ -39,15 +39,16 @@
  * </header>
  */
 
-$active-nav-color: #1d8feb;
+$active-nav-color: darken($dss-blue, 20%);
+$nav-border: lighten(grey, 20%);
 
 .header {
   @extend %contain-floats;
 
   @include screen {
-    background: $black;
+    background: $dss-blue;
     color: $white;
-    border-bottom: 10px solid $white;
+    border-bottom: 10px solid $nav-border;
   }
 }
 
@@ -59,7 +60,7 @@ $active-nav-color: #1d8feb;
   padding: 9px 0 6px;
 
   @include screen {
-    border-bottom: 10px solid $mainstream-brand;
+    border-bottom: 10px solid $nav-border;
     margin-bottom: -10px;
   }
 }
@@ -68,7 +69,7 @@ $active-nav-color: #1d8feb;
   margin-bottom: 0;
 
   @include screen {
-    border-bottom: 10px solid $mainstream-brand;
+    border-bottom: 10px solid $nav-border;
   }
 
   .header__container {
@@ -95,7 +96,7 @@ $active-nav-color: #1d8feb;
 
 .header__brand {
   font-size: 30px;
-  
+
   // Give brand focus outline on mobile
   &:after {
     content: ".";
@@ -245,7 +246,7 @@ $active-nav-color: #1d8feb;
 .js {
   .header__navigation {
     display: none;
-    
+
     @include media(tablet) {
       display: block;
     }
