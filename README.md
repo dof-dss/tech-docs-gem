@@ -1,7 +1,7 @@
 # Tech Docs Template - gem
 
 This repo contains the Ruby gem that distributes the [Tech Docs Template][tdt-template]. The Tech Docs Template is a [middleman template][mmt] that
-you can use to build technical documentation using a DSS style.
+you can use to build technical documentation using a DSS style. This repository will age quickly as there is no attempt to keep this in sync with the published GEM. This repository was created on 25th April 2019.
 
 👉 Find out more about the template and its features from the [Tech Docs Template documentation][tdt-docs].
 
