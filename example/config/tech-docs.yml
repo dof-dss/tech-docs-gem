@@ -2,8 +2,8 @@
 host: https://docs.example.com
 
 # Header-related options
-show_govuk_logo: true
-service_name: My First Service
+show_govuk_logo: false
+service_name: DSS Tech Docs Example
 service_link: /
 phase: Beta
 
@@ -37,7 +37,7 @@ enable_search: true
 
 show_contribution_banner: true
 
-github_repo: alphagov/example-repo
+github_repo: dof-dss/example-repo
 github_branch: source
 
 redirects:
