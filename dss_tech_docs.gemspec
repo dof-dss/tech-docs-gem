@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "govuk_tech_docs/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "govuk_tech_docs"
+  spec.name          = "dss_tech_docs"
   spec.version       = GovukTechDocs::VERSION
-  spec.authors       = ["Government Digital Service"]
-  spec.email         = ["govuk-dev@digital.cabinet-office.gov.uk"]
+  spec.authors       = ["Digital Shared Services"]
+  spec.email         = ["stephen.patterson@finance-ni.gov.uk"]
 
-  spec.summary       = %q{Gem to distribute the GOV.UK Tech Docs Template}
-  spec.description   = %q{Gem to distribute the GOV.UK Tech Docs Template. See https://github.com/alphagov/tech-docs-gem for the project.}
-  spec.homepage      = "https://github.com/alphagov/tech-docs-gem"
+  spec.summary       = %q{Gem to distribute the DSS Tech Docs Template}
+  spec.description   = %q{Gem to distribute the DSS Tech Docs Template. See https://github.com/dof-dss/tech-docs-gem for the project.}
+  spec.homepage      = "https://github.com/dof-dss/tech-docs-gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
