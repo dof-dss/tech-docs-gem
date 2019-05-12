@@ -1,4 +1,4 @@
-# Tech Docs Template - gem
+# DSS Tech Docs Template - gem
 
 This repo contains the Ruby gem that distributes the [Tech Docs Template][tdt-template]. The Tech Docs Template is a [middleman template][mmt] that
 you can use to build technical documentation using a DSS style. This repository will age quickly as there is no attempt to keep this in sync with the published GEM. This repository was created on 25th April 2019.
@@ -27,7 +27,7 @@ There are 2 ways to develop with this gem. You can see your changes on either:
 If you want to see how your changes to the gem affect your website, you have to point your site's Gemfile to your local checkout:
 
 ```rb
-gem 'govuk_tech_docs', path: '../tech-docs-gem'
+gem 'dss_tech_docs', path: '../tech-docs-gem'
 ```
 
 To view your changes locally run:
@@ -67,9 +67,7 @@ bundle exec rake jasmine:ci
 
 ## Releasing new versions
 
-To release a new version, create a new Pull Request that updates [version.rb](lib/govuk_tech_docs/version.rb) and [CHANGELOG.md](CHANGELOG.md). Don't mix this in with other changes - this makes it easier to find out what was released when. See [this PR to release a new version as an example](https://github.com/alphagov/tech-docs-gem/pull/15).
-
-Travis will automatically release a [new version to Rubygems.org](https://rubygems.org/gems/govuk_tech_docs).
+This is a manual process for now.
 
 ## Licence
 
