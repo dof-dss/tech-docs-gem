@@ -5,7 +5,7 @@ require "govuk_tech_docs/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "dss_tech_docs"
-  spec.version       = GovukTechDocs::VERSION
+  spec.version       = "0.1.1"
   spec.authors       = ["Digital Shared Services"]
   spec.email         = ["stephen.patterson@finance-ni.gov.uk"]
 
